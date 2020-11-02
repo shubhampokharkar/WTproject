@@ -49,6 +49,9 @@ if(isset($_POST['submit'])){
                 <td><img src="<?php echo $row['Address_Proof']; ?>" height="250px" width="250px"></td>
                 <?php
                 echo "</tr>";
+				?>
+				<td colspan=2 style="padding:30px;"><center><button id="delete" style="background-color:green;height:40px;width:100px;border:1px solid black; border-radius:5px;"><a href="delete.php?STB_No=<?php echo $row['STB_No']; ?>" style="text-decoration:none; color:white; font-weight:bold"> DELETE </a></button></center></td>
+				<?php
             }
         echo "</table>";
         echo "<br>";

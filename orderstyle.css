@@ -1,0 +1,44 @@
+#order header{
+    margin-top:80px;
+    line-height: 40px;;
+    background-color: orange;
+    border-radius:5px;
+}
+
+#order header h2{
+    margin-left:15px;;
+}
+
+.order{
+    margin-top:20px;
+}
+
+.order input{
+    height: 30px;
+    border: 1px solid black;
+    border-radius: 5px;
+}
+
+#sear{
+    height: 30px;
+    width: 100px;
+    background-color: blue;
+    color: white;
+}
+
+#canc{
+    height: 30px;
+    width: 100px;
+    background-color: red;
+    color: white;
+}
+
+input {
+    text-align: center;
+  }
+  ::-webkit-input-placeholder {
+    text-align: center;
+  }
+  :-moz-placeholder {
+    text-align: center;
+  }
